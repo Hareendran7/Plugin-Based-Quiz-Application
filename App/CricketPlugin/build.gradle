@@ -1,0 +1,11 @@
+apply plugin: 'java'
+
+jar {
+	manifest {
+		attributes 'Plugin-Class': 'CricketPlugin'
+	}
+}
+
+dependencies {
+	compile project(':Core')
+}
